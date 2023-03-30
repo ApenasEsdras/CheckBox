@@ -2,7 +2,7 @@ const BotaoDeleta = ()=>{
     const botaoDeleta = document.createElement('button');
 
       // crinado class
-      botaoDeleta.classList.add('delet-button');
+      botaoDeleta.classList.add('delete-button');
       botaoDeleta.innerText = 'Deletar'
 
     botaoDeleta.addEventListener('click', deletarTarefa);
